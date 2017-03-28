@@ -39,7 +39,7 @@
       <TfrxMemoView Name="Memo9" Left="75,5906" Top="22,67718" Width="680,3154" Height="18,89765" ShowHint="False" DataSetName="db_laporan" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="tahoma" Font.Style="0" Frame.Style="fsDot" ParentFont="False" Text=""/>
       <TfrxMemoView Name="Memo29" Left="0" Top="22,67718" Width="75,5906" Height="18,89765" ShowHint="False" DataSetName="db_laporan" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="tahoma" Font.Style="0" Frame.Style="fsDot" ParentFont="False" Text=" Terbilang :"/>
       <TfrxMemoView Name="Memo3" Left="544,25232" Top="0" Width="105,82684" Height="18,89765" ShowHint="False" DataSetName="db_laporan" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="tahoma" Font.Style="0" Frame.Style="fsDouble" Frame.Typ="12" ParentFont="False" Text=""/>
-      <TfrxMemoView Name="Memo4" Left="491,3389" Top="0" Width="52,91342" Height="18,89765" ShowHint="False" DataSetName="db_laporan" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="tahoma" Font.Style="0" Frame.Style="fsDouble" Frame.Typ="12" HAlign="haRight" ParentFont="False" Text="[sum(strtoint(&#60;db_laporan.&#34;Qty_return_jual&#34;&#62;))]"/>
+      <TfrxMemoView Name="Memo4" Left="491,3389" Top="0" Width="52,91342" Height="18,89765" ShowHint="False" DataSetName="db_laporan" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="tahoma" Font.Style="0" Frame.Style="fsDouble" Frame.Typ="12" HAlign="haRight" ParentFont="False" Text="[sum(strtofloat(&#60;db_laporan.&#34;Qty_return_jual&#34;&#62;))]"/>
     </TfrxFooter>
   </TfrxReportPage>
 </TfrxReport>
